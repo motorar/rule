@@ -1,0 +1,297 @@
+# mihomo (Clash Meta) 懒人配置
+# 版本 V1.8-240904
+# https://gist.github.com/liuran001/5ca84f7def53c70b554d3f765ff86a33
+# https://obdo.cc/meta
+# 作者: 笨蛋ovo (bdovo.cc)
+# Telegram: https://t.me/baka_not_baka
+# 关注我的 Telegram 频道谢谢喵 https://t.me/s/BDovo_Channel
+# 修改自官方示例规则 https://wiki.metacubex.one/example/#meta
+# 转载请保留此注释
+# 尽量添加了较为详尽的注释，不理解的地方建议对照 虚空终端 (Clash Meta) Docs 进行理解
+# 虚空终端 (Clash Meta) Docs 地址: https://wiki.metacubex.one
+# 不理解的地方不要乱动，如果你是小白，请按下 `Ctrl + F` 搜索 `基础配置`，只修改此部分
+
+# true 是启用
+# false 是禁用
+
+# 分组
+pr:
+  &pr {
+    type: select,
+    proxies:
+      [节点选择,香港,DIRECT,   
+      ],
+  }
+# 延迟检测 URL
+p: &p
+  type: http
+  # 自动更新订阅时间，单位为秒
+  interval: 1600
+
+
+# 基础配置
+# --------------------------------------------------
+# 如果你是小白，那么你只需要修改分割线以内的内容
+# 其他部分保持不动即可
+# 如果你需要使用大于两个机场，在下方 `use` 处添加 `订阅三` （名字可以自己取），然后在 `proxy-providers` 照例添加订阅链接即可
+# 反之，如果你只需要使用一个，那么将 `订阅二` 前添加 `#` 进行注释即可
+
+# 订阅名，记得修改成自己的
+# 添删订阅在这里和下方订阅链接依葫芦画瓢就行
+use: &use
+  # 如果不希望自动切换请将下面两行注释对调
+  # type: select
+  type: url-test
+  use:
+    - 订阅ouo
+    - 订阅infini
+    - 订阅魔戒
+
+    - 订阅极速
+    - 订阅顶极 
+    - 订阅一毛 
+    # - 本地配置
+
+# 订阅链接
+# 对于订阅来说，path 为选填项，但建议启用
+# 本地配置可以只填 path
+proxy-providers:
+  订阅ouo:
+    <<: *p
+    # path: ./proxy_provider/订阅ouo.yaml
+    url: "https://subs.ouoboom.xyz/api/v1/client/subscribe?token=ec27610d7616aebf0638ac248272e30c"
+
+
+  订阅infini:
+    <<: *p
+    # path: ./proxy_provider/订阅infini.yaml
+    url: "http://on1vejas4m6z.w7yxefcx0i11.click/api/v1/client/subscribe?token=3ab9d7bb8db9d14f97c6471b50e795ad"    
+
+  订阅魔戒:
+    <<: *p
+    # path: ./proxy_provider/订阅魔戒.yaml
+    url: "https://onlysub.mjurl.com/api/v1/client/subscribe?token=be63ca898f4dc9dc324da74cbbd169d0" 
+
+ 
+
+  订阅极速:
+    <<: *p
+    # path: ./proxy_provider/订阅极速.yaml
+    url: "https://jsjc.cfd/api/v1/client/subscribe?token=38dad4d94433c89a02a71b7b9d4590cc"        
+
+  订阅顶极:
+    <<: *p
+    # path: ./proxy_provider/订阅顶极.yaml
+    url: "https://platform.djjc.cfd/api/v1/client/subscribe?token=a5c350e5484ec4dbbec597289750a7a2"        
+
+  订阅一毛:
+    <<: *p
+    # path: ./proxy_provider/订阅一毛.yaml
+    url: "https://ymjc.cfd/api/v1/client/subscribe?token=4dbb877715ee1d9caede1e235be15136"                
+     
+  # 本地配置:
+    # <<: *p
+    # path: ./proxy_provider/本地配置.yaml
+
+# 小白请不要继续随意修改以下设置
+# 若需修改请参阅文档 https://wiki.metacubex.one
+# --------------------------------------------------
+
+# 规则订阅
+rule-providers:
+  # anti-AD 广告拦截规则
+  # https://github.com/privacy-protection-tools/anti-AD
+  # 如果误杀率高请自行更换
+
+  
+
+
+mode: rule
+# ipv6 支持
+ipv6: true
+log-level: info
+# 允许局域网连接
+allow-lan: true
+# socks5/http 端口
+mixed-port: 7890
+# Meta 内核特性 https://wiki.metacubex.one/config/general
+# 统一延迟
+# 更换延迟计算方式,去除握手等额外延迟
+unified-delay: true
+# TCP 并发
+# 同时对所有ip进行连接，返回延迟最低的地址
+tcp-concurrent: true
+# 外部控制端口
+external-controller: :9090
+
+geodata-mode: true
+
+# Geo 数据库下载地址
+# 使用 FastGit 代理 (https://fgit.cf)
+# 源地址 https://github.com/MetaCubeX/meta-rules-dat
+# 可以更换镜像站但不要更换其他数据库，可能导致无法启动
+geox-url:
+  geoip: "https://hub.gitmirror.com/https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip.dat"
+  geosite: "https://hub.gitmirror.com/https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geosite.dat"
+  mmdb: "https://hub.gitmirror.com/https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/country.mmdb"
+
+# 进程匹配模式
+# 路由器上请设置为 off
+# always 开启，强制匹配所有进程
+# strict 默认，由 Clash 判断是否开启
+# off 不匹配进程，推荐在路由器上使用此模式
+find-process-mode: strict
+
+# 缓解移动设备耗电问题
+# https://github.com/vernesong/OpenClash/issues/2614
+keep-alive-interval: 800
+
+# 全局客户端指纹
+global-client-fingerprint: random # 随机指纹
+
+# 缓存
+profile:
+  store-selected: true
+  store-fake-ip: true
+
+# 自动同步时间以防止时间不准导致无法正常联网
+ntp:
+  enable: true
+  # 是否同步至系统时间，需要 root/管理员权限
+  write-to-system: false
+  server: time.apple.com
+  port: 123
+  interval: 30   # 原始是30
+
+# 域名嗅探
+sniffer:
+  enable: true
+  sniff:
+    TLS:
+      ports: [443, 8443]
+    HTTP:
+      ports: [80, 8080-8880]
+      override-destination: true
+
+# tun 模式
+tun:
+  enable: false  # enable 'true'
+  stack: system  # or 'gvisor'
+  dns-hijack:
+    - "any:53"
+    - "tcp://any:53"
+  auto-route: true
+  auto-detect-interface: true
+
+# dns 设置
+# 已配置 ipv6
+dns:
+  enable: true
+  listen: :1053
+  ipv6: true
+  # 路由器个人建议使用 redir-host 以最佳兼容性
+  # 其他设备可以使用 fake-ip
+  enhanced-mode: redir-host
+  fake-ip-range: 28.0.0.1/8
+  fake-ip-filter:
+    - '*'
+    - '+.lan'
+    - '+.local'
+  default-nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+    - 114.114.114.114
+    - '[2402:4e00::]'
+    - '[2400:3200::1]'
+  nameserver:
+    - 'tls://8.8.4.4#dns'
+    - 'tls://1.0.0.1#dns'
+    - 'tls://[2001:4860:4860::8844]#dns'
+    - 'tls://[2606:4700:4700::1001]#dns'
+  proxy-server-nameserver:
+    - https://doh.pub/dns-query
+  nameserver-policy:
+    "geosite:cn,private":
+      - https://doh.pub/dns-query
+      - https://dns.alidns.com/dns-query
+
+
+
+proxies:
+ 
+
+proxy-groups:
+  # 使用 WARP 的用户需要手动在下方的 proxies 字段内添加 WARP
+  # 例如 [WARP, 全部节点, 自动选择, 香港, 台湾, 日本, 新加坡, 美国, 其它地区, DIRECT],
+
+
+  - {
+      name: 节点选择,
+       type: url-test, url: http://www.gstatic.com/generate_204,  tolerance: 30, interval: 399, 
+        proxies:  [备用,香港],
+       <<: *use,  filter: "(?i)Hong kong|Singapore|Taiwan|香港HY-优化2"}
+  - { name: dns, type: select, proxies: [DIRECT,节点选择] }
+
+  - { name: 备用, <<: *use, type: load-balance, strategy: "round-robin", "include-all": true, url: http://www.gstatic.com/generate_204, 
+      tolerance: 30, interval: 412, filter: "(?i)香港|台湾|日本|新加坡|美国专线|韩国" }  
+  - { name: infini, <<: *use, type: url-test, url: http://www.gstatic.com/generate_204, 
+     interval: 422, tolerance: 30, filter: "(?i)HK" }    
+
+
+  - { name: 香港, <<: *use, type: url-test, url: http://www.gstatic.com/generate_204,  interval: 900, filter: "(?i)港|hk|hongkong|hong kong" }
+  - { name: Ouo新, <<: *use,   type: url-test, url: http://www.gstatic.com/generate_204,  interval: 1211,  filter: "(?i)Singapore 01|Singapore 02|Singapore 03" }     
+
+
+
+
+rules:
+  # 若需禁用 QUIC 请取消注释 QUIC 两条规则
+  # 防止 YouTube 等使用 QUIC 导致速度不佳, 禁用 443 端口 UDP 流量（不包括国内）
+
+# - AND,(AND,(DST-PORT,443),(NETWORK,UDP)),(NOT,((GEOSITE,cn))),REJECT # quic
+
+  
+
+  - DOMAIN-SUFFIX,downloadtorrentfile.com,infini
+  - DOMAIN-SUFFIX,cloudfront.net,备用
+  - DOMAIN-SUFFIX,akamaized.net,备用
+  - DOMAIN-SUFFIX,warnermediacdn.com,备用
+
+  - DOMAIN-SUFFIX,amagi.tv,备用
+  - DOMAIN-SUFFIX,moveonjoy.com,备用
+  - DOMAIN-SUFFIX,wurl.tv,备用
+  - DOMAIN-SUFFIX,getaj.net,备用
+  - DOMAIN-SUFFIX,pbskids.org,备用
+  - DOMAIN-SUFFIX,corusdigitaldev.com,备用
+
+  - DOMAIN-SUFFIX,googlevideo.com,备用
+  - GEOSITE,youtube,备用  
+  - DOMAIN-SUFFIX,oochat.space,Ouo新
+
+  - GEOSITE,ehentai,REJECT
+  
+  - GEOSITE,openai,节点选择
+  - GEOSITE,github,节点选择
+  - GEOSITE,twitter,节点选择
+
+
+  - GEOSITE,bbc,节点选择  
+  
+  - GEOSITE,google,节点选择
+  - GEOSITE,google-cn,节点选择 # Google CN 不走代理会导致香港等地区节点 Play Store 异常
+  - GEOSITE,telegram,节点选择
+
+  - GEOSITE,bahamut,节点选择
+
+  - GEOSITE,steam@cn,DIRECT
+  - GEOSITE,steam,节点选择
+  - GEOSITE,onedrive,节点选择
+  - GEOSITE,microsoft,节点选择
+  - GEOSITE,geolocation-!cn,节点选择
+# - AND,(AND,(DST-PORT,443),(NETWORK,UDP)),(NOT,((GEOIP,CN))),REJECT # quic
+
+
+
+  - GEOSITE,CN,DIRECT
+
+  - MATCH,节点选择
