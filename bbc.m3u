@@ -87,10 +87,9 @@ https://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8
 https://amg00405-rakutentv-cgtn-rakuten-i9tar.amagi.tv/master.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/sOPjr6f.png "   group-title="国际",CGTN Documentary
 https://amg00405-rakutentv-cgtndocumentary-rakuten-0ql8j.amagi.tv/master.m3u8
-#EXTINF:-1 tvg-logo=" "   group-title="国际",VOO
-https://voa-ingest.akamaized.net/hls/live/2033878/tvmc08/playlist.m3u8 
- 
 
+#EXTINF:-1 tvg-logo="https://i.imgur.com/sOPjr6f.png "   group-title="国际",CCTV1
+https://rthktv33-live.akamaized.net/hls/live/2101641/RTHKTV33/master.m3u8
  
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/B36We5z.jpeg"   group-title="国际",Love Nature
