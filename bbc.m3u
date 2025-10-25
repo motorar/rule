@@ -104,23 +104,17 @@ https://brat-samsung-us.amagi.tv/playlist.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/E84jnP8.png "  group-title="KIDS" , Nickelodeon 
-http://fl1.moveonjoy.com/NICKELODEON/index.m3u8
-#EXTINF:-1   tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Nickelodeon_2023_logo_%28alternative%29.svg/1200px-Nickelodeon_2023_logo_%28alternative%29.svg.png "  group-title="KIDS" , Nick TOONS
-http://fl1.moveonjoy.com/NICKTOONS/index.m3u8
-#EXTINF:-1  tvg-logo=" "  group-title="KIDS" , Ninja Kids TV
-https://playworksdigital-ninjakidztv-1-us.xumo.wurl.tv/playlist.m3u8
-#EXTINF:-1  tvg-logo="https://i.imgur.com/ZqnAV0y.png "  group-title="KIDS" , PBS KIDS
-https://livestream.pbskids.org/out/v1/1e3d77b418ad4a819b3f4c80ac0373b5/est_124.m3u8
 
-#EXTINF:-1  tvg-logo="https://i.imgur.com/E84jnP8.png "  group-title="KIDS" , Nickelodeon Pluto TV
-http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5ca673e0d0bd6c2689c94ce3/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2a5108-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=5730720c-9e54-41d9-b73d-eab8fdac7291&checkedby:iptvcat.com
 
-#EXTINF:-1   tvg-logo="https://i.imgur.com/LVRYdSU.png" group-title="KIDS",DISNEY_XD
-https://fl3.moveonjoy.com/DISNEY_XD/index.m3u8
+#EXTINF:-1   tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Nickelodeon_2023_logo_%28alternative%29.svg/1200px-Nickelodeon_2023_logo_%28alternative%29.svg.png "  group-title="KIDS" , 	Nickelodeon Pluto TV
+https://list.iptvcat.com/my_list/s/7301ad67e0ac613664c4f782118d3343.m3u8
+
+
+
+
 
 #EXTINF:-1   tvg-logo="https://i.imgur.com/oMCnNhF.png" group-title="KIDS",Cartoon Network East (1080p)
-https://fl3.moveonjoy.com/CARTOON_NETWORK/index.m3u8
+https://list.iptvcat.com/my_list/s/bd7d295cbc106d36491e59f262f3efb5.m3u8
 
 
 #EXTINF:-1   tvg-logo="https://i.imgur.com/cgO5uJO.png" group-title="KIDS",Disney Jr. (720p)
@@ -138,8 +132,11 @@ http://38.64.72.148/hls/modn/list/4005/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://i.imgur.com/9FAYuqx.jpeg "  group-title="国际" , BBC Earth Pluto
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/656535fc2c46f30008870fae/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c26ce98-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=73fe2b3e-3885-4bd2-874c-cc5f2153e555&checkedby:iptvcat.com
  
+#EXTINF:-1  tvg-logo="https://i.imgur.com/9FAYuqx.jpeg "  group-title="国际" , PBS EAST （G)
+https://list.iptvcat.com/my_list/s/44000c6b5165a8cad99a4c6d935b65ae.m3u8
 
-
+#EXTINF:-1  tvg-logo="https://i.imgur.com/9FAYuqx.jpeg "  group-title="国际" , PBS WEST （G)
+https://list.iptvcat.com/my_list/s/939e81a2aaf570fd9d9971ae5201d005.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/NBA_TV.svg/512px-NBA_TV.svg.png" group-title="国际",NBA (720p) [Geo-blocked]
 https://aegis-cloudfront-1.tubi.video/c987b155-8d7e-4307-bd24-720bb2843d42/playlist.m3u8?checkedby:iptvcat.com
