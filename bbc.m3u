@@ -27,6 +27,7 @@ https://d1vnr7amzbx49s.cloudfront.net/index_1.m3u8
 #EXTINF:0 tvg-logo=" " group-title="NEWS" ,ABC NEWS
 https://abc-news-dmd-streams-1.akamaized.net/out/v1/701126012d044971b3fa89406a440133/index.m3u8
 
+
  
 #EXTINF:-1 tvg-logo="https://i.imgur.com/DRjKEsk.png"   group-title="NEWS",FOX News
 https://fox-foxnewsnow-vizio.amagi.tv/playlist.m3u8
@@ -70,8 +71,7 @@ https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/pl
 #EXTINF:-1 tvg-logo="https://i.imgur.com/EOM1C6x.jpeg"   group-title="国际",Taiwan Plus
 https://bcovlive-a.akamaihd.net/rce33d845cb9e42dfa302c7ac345f7858/ap-northeast-1/6282251407001/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://image.xumo.com/v1/channels/channel/9999194/300x300.png?type=color_onBlack" group-title="国际",Newsmax,Newsmax TV
-https://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/D5R2H3Y.png "   group-title="国际",CGTN
 https://amg00405-rakutentv-cgtn-rakuten-i9tar.amagi.tv/master.m3u8
@@ -89,6 +89,9 @@ https://d18dyiwu97wm6q.cloudfront.net/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/EZZQCtb.png"   group-title="国际",Wild Earth
 https://wildearth-plex.amagi.tv/masterR1080p.m3u8
 
+#EXTINF:-1 tvg-logo="https://i.imgur.com/EZZQCtb.png"   group-title="国际",BBC EARTH (GEO)
+https://amg00793-amg00793c6-firetv-us-4067.playouts.now.amagi.tv/playlist.m3u8
+
 #EXTINF:-1 tvg-logo=""   group-title="KIDS",Brat TV
 https://brat-samsung-us.amagi.tv/playlist.m3u8
 
@@ -99,6 +102,8 @@ https://brat-samsung-us.amagi.tv/playlist.m3u8
 #EXTINF:-1   tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Nickelodeon_2023_logo_%28alternative%29.svg/1200px-Nickelodeon_2023_logo_%28alternative%29.svg.png "  group-title="KIDS" , 	Nickelodeon Pluto TV
 https://list.iptvcat.com/my_list/s/7301ad67e0ac613664c4f782118d3343.m3u8
 
+#EXTINF:-1   tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Nickelodeon_2023_logo_%28alternative%29.svg/1200px-Nickelodeon_2023_logo_%28alternative%29.svg.png "  group-title="KIDS" , 	Nickelodeon
+http://23.237.104.106:8080/USA_NICKELODEON/index.m3u8
 
 
 #EXTINF:-1   tvg-logo="https://i.imgur.com/oMCnNhF.png" group-title="KIDS",Cartoon Network East (1080p)
@@ -114,6 +119,16 @@ https://vs-hls-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:cbbc_hd/t=
 #EXTINF:-1  tvg-logo="https://i.imgur.com/hvlgRMR.jpeg" group-title="KIDS",cbbc
 https://vs-hls-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:cbeebies_hd/t=3840/v=pv14/b=5070016/main.m3u8
 
+#EXTINF:-1  tvg-logo="https://i.imgur.com/hvlgRMR.jpeg" group-title="KIDS",BBC4 cbbc
+https://viamotionhsi.netplus.ch/live/eds/bbc4cbeebies/browser-HLS8/bbc4cbeebies.m3u8
+
+#EXTINF:-1  tvg-logo="https://i.imgur.com/hvlgRMR.jpeg" group-title="KIDS",beIN Sports USA
+http://fl1.moveonjoy.com/BEIN_SPORTS/index.m3u8
+
+#EXTINF:-1  tvg-logo="https://i.imgur.com/hvlgRMR.jpeg" group-title="KIDS",NBA (geo)
+https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
+
+
 #EXTINF:-1  tvg-logo=" "  group-title="国际" , TVBS-Asia
 http://38.64.72.148/hls/modn/list/4005/playlist.m3u8
 
@@ -128,9 +143,13 @@ https://pbs.lls.cdn.pbs.org/pst/index.m3u8
 
 #EXTINF:-1  tvg-logo="https://i.imgur.com/9FAYuqx.jpeg "  group-title="国际" , PBS kids
 https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/playlist.m3u8
+#EXTINF:-1  tvg-logo="https://i.imgur.com/9FAYuqx.jpeg "  group-title="国际" , PBS kids Alaska
+https://livestream.pbskids.org/out/v1/94b88ad58fc14f84a9382341f1c00b82/akst.m3u8
+#EXTINF:-1  tvg-logo="https://i.imgur.com/9FAYuqx.jpeg "  group-title="国际" , PBS kids Pacific
+https://livestream.pbskids.org/out/v1/11f2e6b73eaa4887b3746cb863960e79/pst.m3u8
 
-
-
+#EXTINF:-1 tvg-logo="https://image.xumo.com/v1/channels/channel/9999194/300x300.png?type=color_onBlack" group-title="国际",Newsmax
+https://nmx1ota.akamaized.net/hls/live/2107010/Live_1/index.m3u8
 
 
 
