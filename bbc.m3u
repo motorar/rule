@@ -107,8 +107,9 @@ http://23.237.104.106:8080/USA_NICKELODEON/index.m3u8
 
 
 
-#EXTINF:-1   tvg-logo="https://i.imgur.com/cgO5uJO.png" group-title="KIDS",Disney Jr. (720p)
-https://fl3.moveonjoy.com/DISNEY_JR/index.m3u8
+#EXTINF:-1   tvg-logo="" group-title="国际",BBC4
+https://vs-hls-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_four_hd/t=3840/v=pv14/b=5070016/main.m3u8
+
 
 #EXTINF:-1   tvg-logo="https://i.imgur.com/pgGuAyG.png" group-title="KIDS",CBeebies HD
 https://vs-hls-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:cbbc_hd/t=3840/v=pv14/b=5070016/main.m3u8
@@ -149,19 +150,5 @@ https://nmx1ota.akamaized.net/hls/live/2107010/Live_1/index.m3u8
 
 
 
-#EXTINF:-1   tvg-logo="" group-title="国际",BBC4
-https://vs-hls-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_four_hd/t=3840/v=pv14/b=5070016/main.m3u8
 
-
-
-#EXTINF:-1   tvg-logo="https://i.imgur.com/6CaGmVb.png" group-title="国际",Discovery_Channel
-http://fl3.moveonjoy.com/Discovery_Channel/index.m3u8
-
-
-
-#EXTINF:-1   tvg-logo="https://i.imgur.com/mcpIbeX.png" group-title="国际",National_Geographic
-https://fl3.moveonjoy.com/National_Geographic/index.m3u8
-
-#EXTINF:-1   tvg-logo="https://i.imgur.com/460EMgv.png" group-title="国际",Nat_Geo_Wild
-https://fl3.moveonjoy.com/Nat_Geo_Wild/index.m3u8
 
