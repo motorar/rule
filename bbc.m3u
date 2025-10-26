@@ -48,10 +48,10 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/55
 
 
 
-#EXTINF:-1  tvg-id="BloombergTV.us"  tvg-logo="https://lo1.in/uk/blomb.png"  group-title="NEWS",Bloomberg
-https://dai.google.com/linear/hls/pb/event/crO2xItzS0K0Mznc1p0yPA/stream/9123a5b4-625a-4fcd-8082-cfbd65b61a64:SIN/master.m3u8
-
-
+#EXTINF:-1  tvg-id="BloombergTV.us"  tvg-logo="https://lo1.in/uk/blomb.png"  group-title="NEWS",Bloomberg Asia
+https://www.bloomberg.com/media-manifest/streams/asia.m3u8
+#EXTINF:-1  tvg-id="BloombergTV.us"  tvg-logo="https://lo1.in/uk/blomb.png"  group-title="NEWS",Bloomberg USA
+https://www.bloomberg.com/media-manifest/streams/phoenix-us.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/Q96MXuT.png"  group-title="NEWS",CA global news 
 https://live.corusdigitaldev.com/groupd/live/49a91e7f-1023-430f-8d66-561055f3d0f7/live.isml/master.m3u8
