@@ -99,15 +99,12 @@ https://brat-samsung-us.amagi.tv/playlist.m3u8
 
 
 
-#EXTINF:-1   tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Nickelodeon_2023_logo_%28alternative%29.svg/1200px-Nickelodeon_2023_logo_%28alternative%29.svg.png "  group-title="KIDS" , 	Nickelodeon Pluto TV
-https://list.iptvcat.com/my_list/s/7301ad67e0ac613664c4f782118d3343.m3u8
+
 
 #EXTINF:-1   tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Nickelodeon_2023_logo_%28alternative%29.svg/1200px-Nickelodeon_2023_logo_%28alternative%29.svg.png "  group-title="KIDS" , 	Nickelodeon
 http://23.237.104.106:8080/USA_NICKELODEON/index.m3u8
 
 
-#EXTINF:-1   tvg-logo="https://i.imgur.com/oMCnNhF.png" group-title="KIDS",Cartoon Network East (1080p)
-https://list.iptvcat.com/my_list/s/bd7d295cbc106d36491e59f262f3efb5.m3u8
 
 
 #EXTINF:-1   tvg-logo="https://i.imgur.com/cgO5uJO.png" group-title="KIDS",Disney Jr. (720p)
