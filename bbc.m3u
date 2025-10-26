@@ -13,8 +13,8 @@ https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/qS5CT66.jpeg"   group-title="NEWS",NHK
 https://cdn4.skygo.mn/live/disk1/NHK_World/HLSv3-FTA/NHK_World.m3u8
 
-
-
+#EXTINF:-1 tvg-id="BBCNews" tvg-logo="https://i.imgur.com/xWEN2JJ.png" group-title="NEWS",Radio BBC World service
+http://as-hls-ww-live.akamaized.net/pool_87948813/live/ww/bbc_world_service/bbc_world_service.isml/bbc_world_service-audio%3d96000.norewind.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://i3.mjj.rip/2024/06/21/911ef41280bcb571716e920e4ea052d4.jpeg"  group-title="NEWS",CNN
@@ -47,23 +47,13 @@ https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_ch
 
 
 
-
-
-
-
-
 #EXTINF:-1  tvg-id="BloombergTV.us"  tvg-logo="https://lo1.in/uk/blomb.png"  group-title="NEWS",Bloomberg
-https://4da261f13a2445c2a8fada9704df3e17.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung-in_Bloomberg/playlist.m3u8
+https://dai.google.com/linear/hls/pb/event/crO2xItzS0K0Mznc1p0yPA/stream/9123a5b4-625a-4fcd-8082-cfbd65b61a64:SIN/master.m3u8
 
-#EXTINF:-1  tvg-logo=" https://i.imgur.com/P9KXpgd.png "  group-title="NEWS" , CNBC
-https://fl3.moveonjoy.com/CNBC/index.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/Q96MXuT.png"  group-title="NEWS",CA global news 
 https://live.corusdigitaldev.com/groupd/live/49a91e7f-1023-430f-8d66-561055f3d0f7/live.isml/master.m3u8
-
-
-
-
 
 
 
