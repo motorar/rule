@@ -58,7 +58,8 @@ https://live.corusdigitaldev.com/groupd/live/49a91e7f-1023-430f-8d66-561055f3d0f
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/3MGdKhL.jpeg" group-title="NEWS",Newsmax
 https://nmx1ota.akamaized.net/hls/live/2107010/Live_1/index.m3u8
-
+#EXTINF:-1 tvg-logo="https://i.imgur.com/3MGdKhL.jpeg" group-title="NEWS",Newsmax 2
+https://list.iptvcat.com/my_list/s/446e72eebae8ab5969cb9871f38f1e71.m3u8
 
 
 
@@ -108,13 +109,14 @@ https://brat-samsung-us.amagi.tv/playlist.m3u8
 
 
 
-#EXTINF:-1   tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Nickelodeon_2023_logo_%28alternative%29.svg/1200px-Nickelodeon_2023_logo_%28alternative%29.svg.png "  group-title="KIDS" , 	Nickelodeon
+#EXTINF:-1   tvg-logo="https://i.imgur.com/6l0oyhm.png"  group-title="KIDS" , 	Nickelodeon
 http://23.237.104.106:8080/USA_NICKELODEON/index.m3u8
 
+#EXTINF:-1   tvg-logo="https://i.imgur.com/9A5JOYb.jpeg"  group-title="KIDS" , 	Nickelodeon Pluto TV
+https://list.iptvcat.com/my_list/s/6ccb693b88cfdbdc876551253256de2c.m3u8
 
-
-
-
+#EXTINF:-1   tvg-logo="https://i.imgur.com/9A5JOYb.jpeg"  group-title="KIDS" , 	Nick Jr Pluto TV
+https://list.iptvcat.com/my_list/s/6eef1da71ae23c61b8782668d1cbcce6.m3u8
 
 #EXTINF:-1   tvg-logo="https://i.imgur.com/pgGuAyG.png" group-title="KIDS",CBeebies HD
 https://vs-hls-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:cbbc_hd/t=3840/v=pv14/b=5070016/main.m3u8
