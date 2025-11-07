@@ -3,6 +3,9 @@
 
 #EXTINF:-1 tvg-id="BBCNews" tvg-logo="https://i.imgur.com/xWEN2JJ.png" group-title="NEWS",BBC World News
 https://d2vnbkvjbims7j.cloudfront.net/containerA/LTN/playlist.m3u8
+#EXTINF:-1 tvg-id="BBCNews" tvg-logo="https://i.imgur.com/xWEN2JJ.png" group-title="NEWS",BBC News (720p)
+https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/mobile_wifi_main_hd_abr_v2.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://lo1.in/uk/aljz.png"   group-title="NEWS",Al Jazeera app
 https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8
