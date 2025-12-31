@@ -3,6 +3,8 @@
 
 #EXTINF:-1 tvg-id="BBCNews" tvg-logo="https://i.imgur.com/xWEN2JJ.png" group-title="NEWS",BBC Asian Pacific
 https://cdn4.skygo.mn/live/disk1/BBC_News/HLSv3-FTA/BBC_News.m3u8
+#EXTINF:-1 tvg-id="BBCNews" tvg-logo="https://i.imgur.com/xWEN2JJ.png" group-title="NEWS",BBC Euro
+https://dash2.antik.sk/live/test_bbc_world/playlist.m3u8
 #EXTINF:-1 tvg-id="BBCNews" tvg-logo="https://i.imgur.com/xWEN2JJ.png" group-title="NEWS",BBC News UK(720p)
 https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/mobile_wifi_main_hd_abr_v2.m3u8
 #EXTINF:-1   tvg-logo="https://i.imgur.com/vSz2WEp.png" group-title="NEWS",BBC UK
@@ -19,7 +21,8 @@ https://cdn4.skygo.mn/live/disk1/NHK_World/HLSv3-FTA/NHK_World.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/xWEN2JJ.png" group-title="NEWS",Radio BBC World service
 http://as-hls-ww-live.akamaized.net/pool_87948813/live/ww/bbc_world_service/bbc_world_service.isml/bbc_world_service-audio%3d96000.norewind.m3u8
-
+#EXTINF:-1 tvg-logo="https://i.imgur.com/DRjKEsk.png"   group-title="NEWS", Radio FOX News
+https://radiovid.foxnews.com/hls/live/661547/RADIOVID/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://i3.mjj.rip/2024/06/21/911ef41280bcb571716e920e4ea052d4.jpeg"  group-title="NEWS",CNN
 https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
@@ -44,7 +47,8 @@ https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-gbnewsnz-sa
 #EXTINF:-1 tvg-logo="https://i.imgur.com/ws6fOcU.png"  group-title="NEWS",RT News 
 https://rt-glb.rttv.com/dvr/rtnews/playlist_4500Kb.m3u8
 
-
+#EXTINF:-1 tvg-logo=" "  group-title="NEWS",Reuters
+https://amg00453-reuters-amg00453c1-rakuten-uk-2110.playouts.now.amagi.tv/playlist/amg00453-reuters-reuters-rakutenuk/playlist.m3u8
 
 #EXTINF:-1  tvg-logo="https://i.imgur.com/YJwld4v.png" group-title="NEWS",SKY News
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/55b285cd2665de274553d66f/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2bb092-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=7161f04a-ca8e-48a5-ba86-50e1f09b73b7&serverSideAds=false
@@ -122,6 +126,8 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5c
 
 #EXTINF:-1   tvg-logo="https://i.imgur.com/pgGuAyG.png" group-title="KIDS",CBeebies HD
 https://vs-hls-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:cbbc_hd/t=3840/v=pv14/b=5070016/main.m3u8
+#EXTINF:-1   tvg-logo="https://i.imgur.com/pgGuAyG.png" group-title="KIDS",CBeebies Asian
+https://cdn4.skygo.mn/live/disk1/Cbeebies/HLSv3-FTA/Cbeebies.m3u8
 
 #EXTINF:-1  tvg-logo="https://i.imgur.com/hvlgRMR.jpeg" group-title="KIDS",CBBC
 https://vs-hls-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:cbeebies_hd/t=3840/v=pv14/b=5070016/main.m3u8
