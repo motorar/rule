@@ -1,12 +1,12 @@
 #EXTM3U
 
-
+#EXTINF:-1 tvg-id="BBCNews" tvg-logo="https://i.imgur.com/xWEN2JJ.png" group-title="NEWS",BBC News UK(720p)
+https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/mobile_wifi_main_hd_abr_v2.m3u8
 #EXTINF:-1 tvg-id="BBCNews" tvg-logo="https://i.imgur.com/xWEN2JJ.png" group-title="NEWS",BBC Asian Pacific
 https://cdn4.skygo.mn/live/disk1/BBC_News/HLSv3-FTA/BBC_News.m3u8
 #EXTINF:-1 tvg-id="BBCNews" tvg-logo="https://i.imgur.com/xWEN2JJ.png" group-title="NEWS",BBC Euro
 https://dash2.antik.sk/live/test_bbc_world/playlist.m3u8
-#EXTINF:-1 tvg-id="BBCNews" tvg-logo="https://i.imgur.com/xWEN2JJ.png" group-title="NEWS",BBC News UK(720p)
-https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/mobile_wifi_main_hd_abr_v2.m3u8
+
 #EXTINF:-1   tvg-logo="https://i.imgur.com/vSz2WEp.png" group-title="NEWS",BBC UK
 https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
 
@@ -90,7 +90,8 @@ https://amg00405-rakutentv-cgtndocumentary-rakuten-0ql8j.amagi.tv/master.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/J9sH1r3.png"   group-title="国际",CCTV1
 https://rthktv33-live.akamaized.net/hls/live/2101641/RTHKTV33/master.m3u8
- 
+#EXTINF:-1 tvg-logo="https://i.imgur.com/J9sH1r3.png"   group-title="国际",CCTV4 Euro
+https://dash2.antik.sk/live/test_cctv_tizen/playlist.m3u8
 
 #EXTINF:-1   tvg-logo="https://i.imgur.com/EjVeoHn.png" group-title="国际",BBC4
 https://vs-hls-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_four_hd/t=3840/v=pv14/b=5070016/main.m3u8
@@ -142,9 +143,21 @@ http://fl1.moveonjoy.com/BEIN_SPORTS/index.m3u8
 #EXTINF:-1  tvg-logo="https://i.imgur.com/fTLNrvf.png" group-title="KIDS",NBA (geo)
 https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
 
+#EXTINF:-1  tvg-logo=" "  group-title="国际" , Guardian Talk Radio (BBC)
+https://cdn-edge1.streamcomedia.com/abr_tngr969fm/abr-tngr969fm_streams/playlist.m3u8
 
 
+#EXTINF:-1  tvg-logo=" "  group-title="国际" , USA Today (G)
+https://usatodaynews-xumo.amagi.tv/playlist.m3u8
+#EXTINF:-1  tvg-logo=" "  group-title="国际" , Vice News
+https://vicetv-vicefast2-firetv.amagi.tv/playlist.m3u8
+#EXTINF:-1  tvg-logo=" "  group-title="国际" , Vice TV
+https://vicetv-vicefast1-firetv.amagi.tv/playlist.m3u8
+#EXTINF:-1  tvg-logo=" "  group-title="国际" ,  WNBC-DT1
+https://fl61.moveonjoy.com/NY_New_York_NBC/tracks-v1a1/mono.ts.m3u8
 
+#EXTINF:-1  tvg-logo=" "  group-title="国际" ,  Bloomberg Quicktake  
+https://bloomberg.com/media-manifest/streams/qt.m3u8
 
 #EXTINF:-1  tvg-logo="https://i.imgur.com/3synfA2.png "  group-title="国际" , PBS EAST （G)
 https://pbs.lls.cdn.pbs.org/est/index.m3u8
@@ -159,7 +172,8 @@ https://livestream.pbskids.org/out/v1/94b88ad58fc14f84a9382341f1c00b82/akst.m3u8
 #EXTINF:-1  tvg-logo="https://i.imgur.com/7A1jAaH.png "  group-title="国际" , PBS kids Pacific
 https://livestream.pbskids.org/out/v1/11f2e6b73eaa4887b3746cb863960e79/pst.m3u8
 
-
+#EXTINF:-1 tvg-id="CCTV5" tvg-name="CCTV5" tvg-logo="" group-title="",CCTV5
+https://zby.130519.xyz/PLTV/11/224/3221226146/index.m3u8
 
 
 
