@@ -37,25 +37,29 @@ https://d1vnr7amzbx49s.cloudfront.net/index_1.m3u8
 #EXTINF:0 tvg-logo="https://i.imgur.com/OLol38V.png " group-title="NEWS" , ABC NEWS AU
 https://abc-news-dmd-streams-1.akamaized.net/out/v1/701126012d044971b3fa89406a440133/index.m3u8
 
-
+#EXTINF:0 tvg-logo="https://i.imgur.com/OLol38V.png " group-title="NEWS" , LeadStory
+https://list.iptvcat.com/my_list/s/664bcc4b6ae6ff45dffe55157895a158.m3u8
  
 #EXTINF:-1 tvg-logo="https://i.imgur.com/DRjKEsk.png"   group-title="NEWS",FOX News Now
 https://fox-foxnewsnow-vizio.amagi.tv/playlist.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/YD3G64y/cbs.jpg" group-title="NEWS" ,CBS NEWS
 https://cbsn-us.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master.m3u8 
+#EXTINF:0 tvg-logo="https://i.ibb.co/YD3G64y/cbs.jpg" group-title="NEWS" ,CBC NEWS
+https://list.iptvcat.com/my_list/s/92f8c91d0e5485c9d46681d3696142df.m3u8
+#EXTINF:0 tvg-logo="https://i.ibb.co/YD3G64y/cbs.jpg" group-title="NEWS" ,CBS News New York
+https://list.iptvcat.com/my_list/s/081df82cef7a402cbb80ef56c1bd4e95.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/Z0wRBYz.jpeg"  group-title="NEWS",GB News 
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-gbnewsnz-samsungnz/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/ws6fOcU.png"  group-title="NEWS",RT News 
-https://rt-glb.rttv.com/dvr/rtnews/playlist_4500Kb.m3u8
+
 
 #EXTINF:-1 tvg-logo=" "  group-title="NEWS",Reuters
 https://amg00453-reuters-amg00453c1-rakuten-uk-2110.playouts.now.amagi.tv/playlist/amg00453-reuters-reuters-rakutenuk/playlist.m3u8
 
-#EXTINF:-1  tvg-logo="https://i.imgur.com/YJwld4v.png" group-title="NEWS",SKY News
-http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/55b285cd2665de274553d66f/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2bb092-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=7161f04a-ca8e-48a5-ba86-50e1f09b73b7&serverSideAds=false
-
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Q96MXuT.png"  group-title="NEWS",CA global news 
+https://live.corusdigitaldev.com/groupd/live/49a91e7f-1023-430f-8d66-561055f3d0f7/live.isml/master.m3u8
 
 
 #EXTINF:-1     tvg-logo="https://i.imgur.com/BY1clB8.jpeg"  group-title="NEWS",Bloomberg Asia
@@ -63,8 +67,7 @@ https://www.bloomberg.com/media-manifest/streams/asia.m3u8
 #EXTINF:-1   tvg-logo="https://i.imgur.com/gmOTTnQ.jpeg"  group-title="NEWS",Bloomberg USA
 https://www.bloomberg.com/media-manifest/streams/phoenix-us.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/Q96MXuT.png"  group-title="NEWS",CA global news 
-https://live.corusdigitaldev.com/groupd/live/49a91e7f-1023-430f-8d66-561055f3d0f7/live.isml/master.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/3MGdKhL.jpeg" group-title="NEWS",Newsmax
 https://nmx1ota.akamaized.net/hls/live/2107010/Live_1/index.m3u8
