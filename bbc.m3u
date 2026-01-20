@@ -3,18 +3,19 @@
 #EXTINF:-1 tvg-id="BBCNews1" tvg-logo="https://i.imgur.com/xWEN2JJ.png" group-title="NEWS",BBC News UK(720p)
 https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/mobile_wifi_main_hd_abr_v2.m3u8
 
-#EXTINF:-1 group-title="NEWS", BBC Moveonjoy
+#EXTINF:-1  tvg-logo="https://i.imgur.com/xWEN2JJ.png" group-title="NEWS",BBC UK
+https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
+
+#EXTINF:-1 group-title="NEWS", tvg-logo="https://i.imgur.com/vSz2WEp.png"  BBC Moveonjoy
 https://fl1.moveonjoy.com/BBC_WORLD_NEWS/index.m3u8
 
-#EXTINF:-1 tvg-id="BBCNews2" tvg-logo="https://i.imgur.com/xWEN2JJ.png" group-title="NEWS",BBC Asian Pacific
+#EXTINF:-1 tvg-id="BBCNews2" tvg-logo="https://i.imgur.com/vSz2WEp.png" group-title="NEWS",BBC Asian Skygo
 https://cdn4.skygo.mn/live/disk1/BBC_News/HLSv3-FTA/BBC_News.m3u8
 
-#EXTINF:-1 tvg-id="BBCNews3" tvg-logo="https://i.imgur.com/xWEN2JJ.png" group-title="NEWS",BBC Euro
+#EXTINF:-1 tvg-id="BBCNews3" tvg-logo="https://i.imgur.com/vSz2WEp.png" group-title="NEWS",BBC Euro Antik
 https://dash2.antik.sk/live/test_bbc_world/playlist.m3u8
 
 
-#EXTINF:-1  tvg-logo="https://i.imgur.com/vSz2WEp.png" group-title="NEWS",BBC UK
-https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
 
 #EXTINF:-1 tvg-logo="https://lo1.in/uk/aljz.png"   group-title="NEWS",Al Jazeera app
 https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8
