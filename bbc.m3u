@@ -6,7 +6,7 @@ https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_ch
 #EXTINF:-1  tvg-logo="https://i.imgur.com/xWEN2JJ.png" group-title="NEWS",BBC UK
 https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
 
-#EXTINF:-1 group-title="NEWS", tvg-logo="https://i.imgur.com/vSz2WEp.png"  BBC Moveonjoy
+#EXTINF:-1  tvg-logo="https://i.imgur.com/vSz2WEp.png" group-title="NEWS",  BBC Moveonjoy
 https://fl1.moveonjoy.com/BBC_WORLD_NEWS/index.m3u8
 
 #EXTINF:-1 tvg-id="BBCNews2" tvg-logo="https://i.imgur.com/vSz2WEp.png" group-title="NEWS",BBC Asian Skygo
