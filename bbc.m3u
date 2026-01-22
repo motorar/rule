@@ -25,8 +25,8 @@ https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/qS5CT66.jpeg"   group-title="NEWS",NHK
 https://cdn4.skygo.mn/live/disk1/NHK_World/HLSv3-FTA/NHK_World.m3u8
-
-
+#EXTINF:-1 tvg-logo="https://i.imgur.com/qS5CT66.jpeg"   group-title="NEWS",NHK PBS (G)
+https://nhk.lls.pbs.org/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://i3.mjj.rip/2024/06/21/911ef41280bcb571716e920e4ea052d4.jpeg"  group-title="NEWS",CNN
 https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
@@ -41,7 +41,8 @@ https://amg02703-leadstory-leadstory-samsungau-rr75f.amagi.tv/playlist/amg02703-
 #EXTINF:-1 tvg-logo="https://i.imgur.com/8nsdsRR.png"  group-title="NEWS",Reuters
 https://amg00453-reuters-amg00453c1-rakuten-uk-2110.playouts.now.amagi.tv/playlist/amg00453-reuters-reuters-rakutenuk/playlist.m3u8
 
-
+#EXTINF:-1 tvg-logo="https://i.imgur.com/DRjKEsk.png"   group-title="NEWS",NBC News
+https://livehub-voidnet.onrender.com/cluster/streamcore/us/NBC_REDIS.m3u8
  
 #EXTINF:-1 tvg-logo="https://i.imgur.com/DRjKEsk.png"   group-title="NEWS",FOX News Now
 https://fox-foxnewsnow-vizio.amagi.tv/playlist.m3u8
@@ -112,6 +113,9 @@ https://wildearth-plex.amagi.tv/masterR1080p.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/Yww76s7.jpeg"   group-title="国际",BBC EARTH (GEO)
 https://amg00793-amg00793c6-firetv-us-4067.playouts.now.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Yww76s7.jpeg"   group-title="国际",BBC EARTH 
+https://amg00793-amg00793c6-xumo-us-2669.playouts.now.amagi.tv/BBCStudios-BBCEarthA-hls/playlist.m3u8
 
 #EXTINF:-1  tvg-logo="https://i.imgur.com/MRfmdeF.jpeg"  group-title="国际",BBC Earth Pluto
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/656535fc2c46f30008870fae/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c26ce98-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=73fe2b3e-3885-4bd2-874c-cc5f2153e555
@@ -194,3 +198,7 @@ https://radiovid.foxnews.com/hls/live/661547/RADIOVID/index.m3u8
 https://cdn4.skygo.mn/live/disk1/Discovery_Asia/HLSv3-FTA/Discovery_Asia.m3u8
 #EXTINF:-1  tvg-logo=" "  group-title="国际" ,Zoomoo MN
 https://cdn4.skygo.mn/live/disk1/Zoomoo/HLSv3-FTA/Zoomoo.m3u8
+#EXTINF:-1  tvg-logo=" "  group-title="国际" ,Warner MN
+https://cdn4.skygo.mn/live/disk1/Warner/HLSv3-FTA/Warner.m3u8
+#EXTINF:-1  tvg-logo=" "  group-title="国际" ,BBC_earth  MN
+https://cdn4.skygo.mn/live/disk1/BBC_earth/HLSv3-FTA/BBC_earth.m3u8
