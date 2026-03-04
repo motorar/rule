@@ -7,11 +7,14 @@ https://a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/s
 #EXTINF:-1, BBC world service 2
 https://stream.live.vc.bbcmedia.co.uk/bbc_world_service
 
+https://a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/hls/nonuk/pc_hd_abr_v2/aks/bbc_world_service.m3u8
+
 # 备注：其它可用 BBC world service 
 #链接1：https://streams.kcrw.com/news24_mp3?aw_0_1st.playerid=KCRW_Website 启动速度慢，但码率达200K，高于上面的50-90K
 #链接2：http://as-hls-ww-live.akamaized.net/pool_87948813/live/ww/bbc_world_service/bbc_world_service.isml/bbc_world_service-audio%3d96000.norewind.m3u8
 #链接3： http://lsn.lv/bbcradio.m3u8?station=bbc_world_service&bitrate=96000  
 #链接4： http://wsdownload.bbc.co.uk/worldservice/meta/live/shoutcast/mp3/eieuk.pls
+#链接4：https://a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/hls/nonuk/pc_hd_abr_v2/aks/bbc_world_service.m3u8
 
 #EXTINF:-1, BBC Radio 4
 https://as-hls-ww-live.akamaized.net/pool_55057080/live/ww/bbc_radio_fourfm/bbc_radio_fourfm.isml/bbc_radio_fourfm-audio%3d96000.norewind.m3u8
@@ -19,11 +22,12 @@ https://as-hls-ww-live.akamaized.net/pool_55057080/live/ww/bbc_radio_fourfm/bbc_
 #EXTINF:-1, BBC Radio 5 Live
 http://as-hls-ww-live.akamaized.net/pool_89021708/live/ww/bbc_radio_five_live/bbc_radio_five_live.isml/bbc_radio_five_live-audio%3d96000.norewind.m3u8
 
+
+#EXTINF:-1, NPR 24
+https://npr-ice.streamguys1.com/live.mp3
+
 #EXTINF:-1, NPR WUYC 
 https://fm939.wnyc.org/wnycfm-mobile.aac
-
-#EXTINF:-1, NPR
-https://npr-ice.streamguys1.com/live.mp3
 
 #EXTINF:-1, NPR WAMU
 https://wamu.cdnstream1.com/wamu.mp3?ck=1728699011525
