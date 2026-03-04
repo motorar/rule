@@ -1,0 +1,49 @@
+#EXTM3U
+
+
+#EXTINF:-1,  BBC
+https://a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/hls/nonuk/audio_syndication_low_sbr_v1/cfs/bbc_world_service.m3u8
+ 
+https://stream.live.vc.bbcmedia.co.uk/bbc_world_service
+https://streams.kcrw.com/news24_mp3?aw_0_1st.playerid=KCRW_Website
+https://15233.live.streamtheworld.com/WRKFFM.mp3?DIST=TuneIn&TGT=TuneIn&maxServers=2&partnertok=eyJhbGciOiJIUzI1NiIsImtpZCI6InR1bmVpbiIsInR5cCI6IkpXVCJ9.eyJ0cnVzdGVkX3BhcnRuZXIiOnRydWUsImlhdCI6MTcyOTkzMDg1MSwiaXNzIjoidGlzcnYifQ.0wMs-ynkCV_a6HehjHTaRFr96dJe2SMtOdPINyFp340
+
+#EXTINF:-1,  WUYC NPR
+https://fm939.wnyc.org/wnycfm-mobile.aac
+
+#EXTINF:-1,  npr
+https://npr-ice.streamguys1.com/live.mp3
+
+#EXTINF:-1,  npr WAMU
+https://wamu.cdnstream1.com/wamu.mp3?ck=1728699011525
+
+#EXTINF:-1,  abc news
+https://mediaserviceslive.akamaized.net/hls/live/2038311/newsradio/index.m3u8 
+
+#EXTINF:-1,  cnn
+https://tunein.cdnstream1.com/2868_96.aac/playlist.m3u8?partnerId=redirect&aw_0_1st.ads_partner_alias=redirect&aw_0_1st.stationId=s20407
+
+
+
+
+
+#EXTINF:-1,BBC - Radio 1
+http://as-hls-ww-live.akamaized.net/pool_904/live/ww/bbc_radio_one/bbc_radio_one.isml/bbc_radio_one-audio%3d96000.norewind.m3u8
+#EXTINF:-1,BBC - Radio 2
+http://as-hls-ww-live.akamaized.net/pool_904/live/ww/bbc_radio_two/bbc_radio_two.isml/bbc_radio_two-audio%3d96000.norewind.m3u8
+#EXTINF:-1,BBC - Radio 3
+http://as-hls-ww-live.akamaized.net/pool_904/live/ww/bbc_radio_three/bbc_radio_three.isml/bbc_radio_three-audio%3d96000.norewind.m3u8
+
+#EXTINF:-1,  BBC4  96
+https://as-hls-ww-live.akamaized.net/pool_904/live/ww/bbc_radio_fourfm/bbc_radio_fourfm.isml/bbc_radio_fourfm-audio%3d96000.norewind.m3u8
+ 
+
+#EXTINF:-1,  BBC4 extra
+https://as-hls-ww-live.akamaized.net/pool_904/live/ww/bbc_radio_fourfm/bbc_radio_fourfm.isml/bbc_radio_fourfm-audio%3d96000.norewind.m3u8
+
+#EXTINF:-1,  BBC5 live
+https://as-hls-ww-live.akamaized.net/pool_904/live/ww/bbc_radio_five_live/bbc_radio_five_live.isml/bbc_radio_five_live-audio%3d96000.norewind.m3u8
+
+
+#EXTINF:-1,  V  CHINESE
+https://n10.radiojar.com/7thwu53r92quv?rj-ttl=5&rj-tok=AAABknUc_3cAx4ZdGpAy1EwFGg
