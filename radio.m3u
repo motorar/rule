@@ -7,7 +7,6 @@ https://a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/s
 #EXTINF:-1, BBC world service 2
 https://stream.live.vc.bbcmedia.co.uk/bbc_world_service
 
-https://a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/hls/nonuk/pc_hd_abr_v2/aks/bbc_world_service.m3u8
 
 # 备注：其它可用 BBC world service 
 #链接1：https://streams.kcrw.com/news24_mp3?aw_0_1st.playerid=KCRW_Website 启动速度慢，但码率达200K，高于上面的50-90K
@@ -26,11 +25,10 @@ http://as-hls-ww-live.akamaized.net/pool_89021708/live/ww/bbc_radio_five_live/bb
 #EXTINF:-1, NPR 24
 https://npr-ice.streamguys1.com/live.mp3
 
-#EXTINF:-1, NPR WUYC 
+#EXTINF:-1, NPR WUYC  FM939
 https://fm939.wnyc.org/wnycfm-mobile.aac
 
-#EXTINF:-1, NPR WAMU
-https://wamu.cdnstream1.com/wamu.mp3?ck=1728699011525
+
 
 #EXTINF:-1, ABC news
 https://mediaserviceslive.akamaized.net/hls/live/2038311/newsradio/index.m3u8 
