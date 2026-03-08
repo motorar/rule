@@ -6,7 +6,8 @@ https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_ch
 #EXTINF:-1  tvg-logo="https://i.imgur.com/xWEN2JJ.png" group-title="NEWS",BBC UK
 https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
 
-
+#EXTINF:-1  tvg-logo="https://i.imgur.com/xWEN2JJ.png" group-title="NEWS",BBC GEO US
+https://pb-iiczlgfysam0q.akamaized.net/v1/amcnetworks_bbcnews_1/samsungheadend_us/latest/main/hls/playlist.m3u8
 
 #EXTINF:-1 tvg-id="BBCNews2" tvg-logo="https://i.imgur.com/vSz2WEp.png" group-title="NEWS",BBC Asian Skygo
 https://cdn4.skygo.mn/live/disk1/BBC_News/HLSv3-FTA/BBC_News.m3u8
@@ -68,8 +69,8 @@ https://aegis-cloudfront-1.tubi.video/c71ce9b6-cddb-4cec-b0db-2f09289f8782/maste
 https://www.bloomberg.com/media-manifest/streams/asia.m3u8
 #EXTINF:-1   tvg-logo="https://i.imgur.com/gmOTTnQ.jpeg"  group-title="NEWS",Bloomberg USA
 https://www.bloomberg.com/media-manifest/streams/phoenix-us.m3u8
-
-
+#EXTINF:-1   tvg-logo="https://i.imgur.com/gmOTTnQ.jpeg"  group-title="NEWS",Bloomberg Original
+https://86fdc85a.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctZ2JfQmxvb21iZXJnT3JpZ2luYWxzX0hMUw/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/3MGdKhL.jpeg" group-title="NEWS",Newsmax
 https://nmx1ota.akamaized.net/hls/live/2107010/Live_1/index.m3u8
@@ -80,6 +81,8 @@ https://amg00217-newsmax-newsmax-rokuus-dur76.amagi.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/fDzBQxF.jpeg"   group-title="NEWS",CNA
 https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/fDzBQxF.jpeg"   group-title="NEWS",CNA Original
+https://amg01082-cna-amg01082c1-rlaxx-us-11304.playouts.now.amagi.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/wRhgZha.jpeg"   group-title="国际",Arirang
 https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
@@ -106,6 +109,8 @@ https://zby.130519.xyz/PLTV/11/224/3221226146/index.m3u8
 #EXTINF:-1   tvg-logo="https://i.imgur.com/EjVeoHn.png" group-title="国际",BBC4
 https://vs-hls-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_four_hd/t=3840/v=pv14/b=5070016/main.m3u8
 
+#EXTINF:-1   tvg-logo=" " group-title="国际",Discovery China
+https://amg01314-amg01314c8-distrotv-us-10218.playouts.now.amagi.tv/playlist/amg01314-cgtn-cgtndiscoveringchina-distrotvus/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/EZZQCtb.png"   group-title="国际",Wild Earth
 https://wildearth-plex.amagi.tv/masterR1080p.m3u8
