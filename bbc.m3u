@@ -60,8 +60,7 @@ https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-gbnewsnz-sa
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/Q96MXuT.png"  group-title="NEWS",CA global news 
 https://live.corusdigitaldev.com/groupd/live/49a91e7f-1023-430f-8d66-561055f3d0f7/live.isml/master.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/dQlUIb9.png" group-title="NEWS" ,CBC NEWS (ca)
-https://aegis-cloudfront-1.tubi.video/c71ce9b6-cddb-4cec-b0db-2f09289f8782/master.m3u8
+
 
 #EXTINF:-1     tvg-logo="https://i.imgur.com/BY1clB8.jpeg"  group-title="NEWS",Bloomberg Asia
 https://www.bloomberg.com/media-manifest/streams/asia.m3u8
@@ -152,8 +151,7 @@ https://vs-hls-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:cbeebies_h
 http://38.64.72.148/hls/modn/list/4005/playlist.m3u8
 
 
-#EXTINF:-1  tvg-logo="https://i.imgur.com/vQ8ARGG.png" group-title="KIDS",beIN Sports USA
-http://fl1.moveonjoy.com/BEIN_SPORTS/index.m3u8
+
 
 #EXTINF:-1  tvg-logo="https://i.imgur.com/fTLNrvf.png" group-title="KIDS",NBA (geo)
 https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
