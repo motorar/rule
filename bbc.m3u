@@ -74,8 +74,7 @@ https://bloomberg.com/media-manifest/streams/qt.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/3MGdKhL.jpeg" group-title="NEWS",Newsmax
 https://nmx1ota.akamaized.net/hls/live/2107010/Live_1/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/3MGdKhL.jpeg" group-title="NEWS",Newsmax 2
-https://amg00217-newsmax-newsmax-rokuus-dur76.amagi.tv/playlist.m3u8
+
 
 
 
@@ -195,3 +194,6 @@ http://as-hls-ww-live.akamaized.net/pool_87948813/live/ww/bbc_world_service/bbc_
 #EXTINF:-1 tvg-logo="https://i.imgur.com/DRjKEsk.png" group-title="radio", Radio FOX News
 https://radiovid.foxnews.com/hls/live/661547/RADIOVID/index.m3u8
 
+
+#EXTINF:-1 tvg-logo="" group-title="tata", tata nick jr
+http://103.157.248.140:8000/play/a00k/index.m3u8
