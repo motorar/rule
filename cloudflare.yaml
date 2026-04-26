@@ -1,5 +1,12 @@
 payload:
-  # === 官网与管理后台 ===
+  # === 1. 核心验证接口 (必带) ===
+  - DOMAIN-SUFFIX,challenges.cloudflare.com
+  - DOMAIN-SUFFIX,turnstile.cloudflare.com
+  - DOMAIN-SUFFIX,hcaptcha.com
+  - DOMAIN-SUFFIX,captcha.website
+  - DOMAIN-KEYWORD,cloudflare-utils         # 某些验证页面调用的工具集
+  
+  # === 2. 官网与基础设施 ===
   - DOMAIN-SUFFIX,cloudflare.com
   - DOMAIN-SUFFIX,cloudflare.net
   - DOMAIN-SUFFIX,cloudflare.tv
@@ -10,23 +17,20 @@ payload:
   - DOMAIN-SUFFIX,cloudflarestatus.com
   - DOMAIN-SUFFIX,cloudflaressl.com
   - DOMAIN-SUFFIX,cloudflare-cn.com
-
-  # === 开发者工具 (Workers/Pages) ===
-  - DOMAIN-SUFFIX,workers.dev
-  - DOMAIN-SUFFIX,pages.dev
-  - DOMAIN-SUFFIX,trycloudflare.com
-  - DOMAIN-SUFFIX,argotunnel.com
-
-  # === 验证码与安全校验 (核心中的核心) ===
-  - DOMAIN-SUFFIX,challenges.cloudflare.com
-  - DOMAIN-SUFFIX,turnstile.cloudflare.com
-  - DOMAIN-SUFFIX,hcaptcha.com
-  - DOMAIN,captcha.website
-
-  # === 关键网络基础设施 ===
   - DOMAIN-SUFFIX,cloudflare-dns.com
   - DOMAIN-SUFFIX,one.one.one
+
+  # === 3. 开发者与边缘计算 (很多验证逻辑跑在这里) ===
+  - DOMAIN-SUFFIX,workers.dev
+  - DOMAIN-SUFFIX,pages.dev
+  - DOMAIN-SUFFIX,argotunnel.com
   - DOMAIN-SUFFIX,videodelivery.net
-  - IP-CIDR,1.1.1.1/32,no-resolve
-  - IP-CIDR,1.0.0.1/32,no-resolve
-  - IP-CIDR,162.159.36.1/32,no-resolve
+  - DOMAIN-SUFFIX,cleanhub.cloud            # 辅助验证域名之一
+
+  # === 4. 精准 IP 段 (补漏关键) ===
+  # 这里的 IP 不要带 no-resolve，允许 Clash 靠 IP 抓取隐藏验证
+  - IP-CIDR,1.1.1.1/32
+  - IP-CIDR,1.0.0.1/32
+  - IP-CIDR,162.159.36.1/32
+  - IP-CIDR,162.159.46.1/32
+  - IP-CIDR,104.16.248.0/24                 # 专门存放 CF 验证脚本的常用段
