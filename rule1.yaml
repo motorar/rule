@@ -1,27 +1,40 @@
-  payload:
+payload:
   # 介绍
-  - '+.missav.ws'
-  - '+.pornhub.com'
-  - '+.missav.ai'
+  - DOMAIN-SUFFIX,missav.ai
+  - DOMAIN-SUFFIX,pornhub.com
 
-  # --- 核心广告域名 (REJECT) ---
-  - DOMAIN,ads-api.twitter.com
-  - DOMAIN,ads-api.x.com
-  - DOMAIN,ads-v2.twitter.com
-  - DOMAIN,ads-v2.x.com
-  - DOMAIN,periscope-ads-api.twitter.com
-  - DOMAIN-SUFFIX,twitter-ads.com
-  - DOMAIN-SUFFIX,ads.twitter.com
-  
-  # --- 追踪与分析 (REJECT) ---
-  - DOMAIN-SUFFIX,crashlytics.com
-  - DOMAIN-SUFFIX,telemetry.twitter.com
-  - DOMAIN-SUFFIX,measurement.twitter.com
-  - DOMAIN,analytics.twitter.com
-  - DOMAIN,log.twitter.com
-  - DOMAIN,api.app-measurement.com
-  
-  # --- 促销与推广相关关键字 (REJECT) ---
-  - DOMAIN-KEYWORD,ads-v2
-  - DOMAIN-KEYWORD,ads-api
-  - DOMAIN-KEYWORD,promotion
+
+
+  - DOMAIN-SUFFIX,ads-twitter.com
+  - DOMAIN-SUFFIX,cms-twdigitalassets.com
+  - DOMAIN-SUFFIX,grok.com
+  - DOMAIN-SUFFIX,periscope.tv
+  - DOMAIN-SUFFIX,pscp.tv
+  - DOMAIN-SUFFIX,t.co
+  - DOMAIN-SUFFIX,tellapart.com
+  - DOMAIN-SUFFIX,tweetdeck.com
+  - DOMAIN-SUFFIX,twimg.co
+  - DOMAIN-SUFFIX,twimg.com
+  - DOMAIN-SUFFIX,twimg.org
+  - DOMAIN-SUFFIX,twitpic.com
+  - DOMAIN-SUFFIX,twitter.biz
+  - DOMAIN-SUFFIX,twitter.com
+  - DOMAIN-SUFFIX,twitter.jp
+  - DOMAIN-SUFFIX,twittercommunity.com
+  - DOMAIN-SUFFIX,twitterflightschool.com
+  - DOMAIN-SUFFIX,twitterinc.com
+  - DOMAIN-SUFFIX,twitteroauth.com
+  - DOMAIN-SUFFIX,twitterstat.us
+  - DOMAIN-SUFFIX,twtrdns.net
+  - DOMAIN-SUFFIX,twttr.com
+  - DOMAIN-SUFFIX,twttr.net
+  - DOMAIN-SUFFIX,twvid.com
+  - DOMAIN-SUFFIX,vine.co
+  - DOMAIN-SUFFIX,x.com
+  - DOMAIN-KEYWORD,twitter
+  - IP-CIDR,192.133.76.0/22
+  - IP-CIDR,199.59.148.0/22
+  - IP-CIDR,199.96.56.0/21
+  - IP-CIDR,202.160.128.0/22
+  - IP-CIDR,209.237.192.0/19
+  - IP-CIDR,69.195.160.0/19
