@@ -30,6 +30,7 @@ https://nhk.lls.pbs.org/index.m3u8
 https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
 
 
+
  
 #EXTINF:-1 tvg-logo="https://i.imgur.com/OLol38V.png " group-title="NEWS" ,ABC NEWS AU
 https://abc-news-dmd-streams-1.akamaized.net/out/v1/701126012d044971b3fa89406a440133/index.m3u8
@@ -42,7 +43,8 @@ https://amg00453-reuters-amg00453c1-rakuten-uk-2110.playouts.now.amagi.tv/playli
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/DRjKEsk.png"   group-title="NEWS",NBC News
 https://livehub-voidnet.onrender.com/cluster/streamcore/us/NBC_REDIS.m3u8
-
+#EXTINF:-1 tvg-logo="https://i.imgur.com/DRjKEsk.png"   group-title="NEWS",NBC HD
+https://xumo-drct-nbcnn-ir8ze.fast.nbcuni.com/live/master_5.m3u8
  
 #EXTINF:-1 tvg-logo="https://i.imgur.com/DRjKEsk.png"   group-title="NEWS",FOX News Now
 https://fox-foxnewsnow-vizio.amagi.tv/playlist.m3u8
@@ -213,6 +215,8 @@ http://38.75.136.137:98/gslb/dsdqpub/cctv4k.m3u8?auth=testpub
 
 #EXTINF:-1 tvg-logo=" " group-title="CCTV", CCTV 4K 2
 http://111.170.156.74:3344/央视/cctv.php?id=cctv4k
+#EXTINF:-1 tvg-logo=" " group-title="CCTV", cctv16hd
+http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv16hd
 
 #EXTINF:-1 tvg-logo=" " group-title="CCTV", 浙江卫视
 http://ali-xwl.cztv.com/live/channel4k2160p.m3u8
@@ -225,3 +229,5 @@ http://38.75.136.137:98/gslb/dsdqpub/bjwshd.m3u8?auth=testpub
 
 #EXTINF:-1 tvg-logo=" " group-title="", SKY SPORTS NEWS
 http://nocable.cc:8080//OURTV/OURTV@4806/35241
+#EXTINF:-1 tvg-logo=" " group-title="", JP wow
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs20&isp=6
