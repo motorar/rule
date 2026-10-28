@@ -39,10 +39,10 @@ https://media-ssl.musicradio.com/LBCNewsUK
 
 
 
-#EXTINF:-1, ABC news
-http://abc.streamguys1.com/live/newsradio/icecast.audio
+#EXTINF:-1, ABC NewsRadio
+https://mediaserviceslive.akamaized.net/hls/live/2109425/newsradio/v0-221.m3u8
 #EXTINF:-1, ABC News National
-https://streaming.abc-cdn.net.au/audio/hls/rnnsw.m3u8
+https://mediaserviceslive.akamaized.net/hls/live/2109448/rnnsw/v0-221.m3u8
 #EXTINF:-1, Sky News Au
 https://22283.live.streamtheworld.com/NOVA_SKYNEWS.mp3?dist=mytuner
 #EXTINF:-1, Sky News Radio
