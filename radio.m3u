@@ -24,12 +24,18 @@ http://as-hls-ww-live.akamaized.net/pool_26173715/live/ww/bbc_radio_four_extra/b
 #EXTINF:-1, BBC Radio 5 Live
 http://as-hls-ww-live.akamaized.net/pool_89021708/live/ww/bbc_radio_five_live/bbc_radio_five_live.isml/bbc_radio_five_live-audio%3d96000.norewind.m3u8
 
+#EXTINF:-1, Times Radio UK
+https://times.live.stream.broadcasting.news/stream
+#EXTINF:-1, GB News Radio
+https://listen-gbnews.sharp-stream.com/gbnews.mp3
 
-#EXTINF:-1, NPR 24
-https://npr-ice.streamguys1.com/live.mp3
+#EXTINF:-1, NEWS RADIO UK LIVE
+https://stream.aiir.com/clcb6m0k9shvv
 
-#EXTINF:-1, NPR WUYC  FM939
-https://fm939.wnyc.org/wnycfm-mobile.aac
+#EXTINF:-1, LBC News UK
+https://media-ssl.musicradio.com/LBCNewsUK
+
+
 
 
 
@@ -39,19 +45,35 @@ http://abc.streamguys1.com/live/newsradio/icecast.audio
 https://streaming.abc-cdn.net.au/audio/hls/rnnsw.m3u8
 #EXTINF:-1, Sky News Au
 https://22283.live.streamtheworld.com/NOVA_SKYNEWS.mp3?dist=mytuner
+#EXTINF:-1, Sky News Radio
+https://28093.live.streamtheworld.com/NOVA_SKYNEWSAAC.aac
 
-#EXTINF:-1, Sky News UK GEO
-https://tunein.cdnstream1.com/3688_96.mp3?aw_0_1st.skey=1772667048&aw_0_1st.abtest=&aw_0_1st.stationId=s2583&aw_0_1st.premium=false&source=TuneIn&aw_0_req.gdpr=true&aw_0_1st.platform=tunein&aw_0_1st.genre_id=g255&aw_0_1st.class=talk&aw_0_1st.ads_partner_alias=ce.Other&aw_0_azn.planguage=%5biv%2c+en%5d&aw_0_1st.is_ondemand=false&aw_0_1st.topicId=na&aw_0_1st.programId=p4559922&aw_0_1st.affiliateIds=a40075%2ca40033%2ca39100&aw_0_1st.bandId=16&delivery=1
+
 
 
 #EXTINF:-1, CNN
 https://tunein.cdnstream1.com/2868_96.aac/playlist.m3u8?listeningSessionID=6651f8444dd85288_2763800_gOCSGgzu_NjYuODUuODkuNTI6ODA!_00000046sEU&downloadSessionID=0
 
+#EXTINF:-1, CNN 2
+https://tunein.cdnstream1.com/3519_96.mp3
+#EXTINF:-1, AP News
+https://apnews.cdnstream1.com/apnews
 
 #EXTINF:-1, FOX News
-https://prod-3-237-99-86.amperwave.net/foxnewsradio-foxnewsradioaac-imc?session-id=cc2e4078da5a28ad7df0926a8aa7458d&source=fnr.web
+https://prod-3-83-204-160.amperwave.net/foxnewsradio-foxnewsradioaac-imc
 
-#EXTINF:-1, Times UK
-https://times.live.stream.broadcasting.news/stream?aw_0_1st.platform=website&aw_0_1st.playerid=wireless-website
+#EXTINF:-1, NPR 24
+https://npr-ice.streamguys1.com/live.mp3
 
 
+#EXTINF:-1, NPR WUYC  FM939
+https://fm939.wnyc.org/wnycfm-mobile.aac
+
+
+#EXTINF:-1, Bloomburger
+https://26353.live.streamtheworld.com/WBBRAMAAC48_SC
+
+
+
+#EXTINF:-1, AJE
+https://live-hls-audio-apps-aje.getaj.net/VOICE-AJE/01.m3u8
