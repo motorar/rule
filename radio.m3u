@@ -15,6 +15,7 @@ http://as-hls-ww-live.akamaized.net/pool_87948813/live/ww/bbc_world_service/bbc_
 #链接4： http://wsdownload.bbc.co.uk/worldservice/meta/live/shoutcast/mp3/eieuk.pls
 #链接4：https://a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/hls/nonuk/pc_hd_abr_v2/aks/bbc_world_service.m3u8
 #链接5：https://stream.live.vc.bbcmedia.co.uk/bbc_world_service
+#链接6BBC官网抓取：https://as-hls-ww-gcomm-live.akamaized.net/pool_07364996/live/ww/bbc_world_service_news_internet/bbc_world_service_news_internet.isml/bbc_world_service_news_internet-audio=96000.m3u8
 
 #EXTINF:-1, BBC Radio 4
 https://as-hls-ww-live.akamaized.net/pool_55057080/live/ww/bbc_radio_fourfm/bbc_radio_fourfm.isml/bbc_radio_fourfm-audio%3d96000.norewind.m3u8
@@ -82,3 +83,8 @@ https://live-hls-audio-apps-aje.getaj.net/VOICE-AJE/01.m3u8
 
 #EXTINF:-1, CNA938
 https://28443.live.streamtheworld.com/938NOW_PREM.aac
+#EXTINF:-1, NHK
+https://nhkworld-radio.nhkworld.jp/hls/live/nhkworld-radio-media13/index.m3u8
+
+#EXTINF:-1, 中广新闻
+https://stream.rcs.revma.com/78fm9wyy2tzuv
