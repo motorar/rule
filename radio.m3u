@@ -44,9 +44,11 @@ https://mediaserviceslive.akamaized.net/hls/live/2109425/newsradio/v0-221.m3u8
 #EXTINF:-1, ABC News National
 https://mediaserviceslive.akamaized.net/hls/live/2109448/rnnsw/v0-221.m3u8
 #EXTINF:-1, Sky News Au
-https://22283.live.streamtheworld.com/NOVA_SKYNEWS.mp3?dist=mytuner
+https://22283.live.streamtheworld.com/NOVA_SKYNEWSAAC.aac
 #EXTINF:-1, Sky News Radio
 https://28093.live.streamtheworld.com/NOVA_SKYNEWSAAC.aac
+
+
 
 
 
@@ -77,3 +79,6 @@ https://26353.live.streamtheworld.com/WBBRAMAAC48_SC
 
 #EXTINF:-1, AJE
 https://live-hls-audio-apps-aje.getaj.net/VOICE-AJE/01.m3u8
+
+#EXTINF:-1, CNA938
+https://28443.live.streamtheworld.com/938NOW_PREM.aac
