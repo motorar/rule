@@ -5,7 +5,7 @@
 https://a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/hls/nonuk/audio_syndication_low_sbr_v1/cfs/bbc_world_service.m3u8
 
 #EXTINF:-1, BBC world service 2
-https://stream.live.vc.bbcmedia.co.uk/bbc_world_service
+http://as-hls-ww-live.akamaized.net/pool_87948813/live/ww/bbc_world_service/bbc_world_service.isml/bbc_world_service-audio%3d96000.norewind.m3u8
 
 
 # 备注：其它可用 BBC world service 
@@ -14,6 +14,7 @@ https://stream.live.vc.bbcmedia.co.uk/bbc_world_service
 #链接3： http://lsn.lv/bbcradio.m3u8?station=bbc_world_service&bitrate=96000  
 #链接4： http://wsdownload.bbc.co.uk/worldservice/meta/live/shoutcast/mp3/eieuk.pls
 #链接4：https://a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/hls/nonuk/pc_hd_abr_v2/aks/bbc_world_service.m3u8
+#链接5：https://stream.live.vc.bbcmedia.co.uk/bbc_world_service
 
 #EXTINF:-1, BBC Radio 4
 https://as-hls-ww-live.akamaized.net/pool_55057080/live/ww/bbc_radio_fourfm/bbc_radio_fourfm.isml/bbc_radio_fourfm-audio%3d96000.norewind.m3u8
@@ -31,11 +32,24 @@ https://fm939.wnyc.org/wnycfm-mobile.aac
 
 
 #EXTINF:-1, ABC news
-https://mediaserviceslive.akamaized.net/hls/live/2038311/newsradio/index.m3u8 
+http://abc.streamguys1.com/live/newsradio/icecast.audio
+#EXTINF:-1, ABC News National
+https://streaming.abc-cdn.net.au/audio/hls/rnnsw.m3u8
+#EXTINF:-1, Sky News Au
+https://22283.live.streamtheworld.com/NOVA_SKYNEWS.mp3?dist=mytuner
+
+#EXTINF:-1, Sky News UK GEO
+https://tunein.cdnstream1.com/3688_96.mp3?aw_0_1st.skey=1772667048&aw_0_1st.abtest=&aw_0_1st.stationId=s2583&aw_0_1st.premium=false&source=TuneIn&aw_0_req.gdpr=true&aw_0_1st.platform=tunein&aw_0_1st.genre_id=g255&aw_0_1st.class=talk&aw_0_1st.ads_partner_alias=ce.Other&aw_0_azn.planguage=%5biv%2c+en%5d&aw_0_1st.is_ondemand=false&aw_0_1st.topicId=na&aw_0_1st.programId=p4559922&aw_0_1st.affiliateIds=a40075%2ca40033%2ca39100&aw_0_1st.bandId=16&delivery=1
+
 
 #EXTINF:-1, CNN
-https://tunein.cdnstream1.com/2868_96.aac/playlist.m3u8?partnerId=redirect&aw_0_1st.ads_partner_alias=redirect&aw_0_1st.stationId=s20407
+https://tunein.cdnstream1.com/2868_96.aac/playlist.m3u8?listeningSessionID=6651f8444dd85288_2763800_gOCSGgzu_NjYuODUuODkuNTI6ODA!_00000046sEU&downloadSessionID=0
 
 
+#EXTINF:-1, FOX News
+https://prod-3-237-99-86.amperwave.net/foxnewsradio-foxnewsradioaac-imc?session-id=cc2e4078da5a28ad7df0926a8aa7458d&source=fnr.web
+
+#EXTINF:-1, Times UK
+https://times.live.stream.broadcasting.news/stream?aw_0_1st.platform=website&aw_0_1st.playerid=wireless-website
 
 
